@@ -1,0 +1,1 @@
+﻿export { VendorQuoteGet } from './VendorQuoteGet';

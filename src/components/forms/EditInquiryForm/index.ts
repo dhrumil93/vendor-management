@@ -1,0 +1,1 @@
+export { EditInquiryForm } from './EditInquiryForm';

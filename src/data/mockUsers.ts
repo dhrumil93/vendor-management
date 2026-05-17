@@ -1,0 +1,61 @@
+import type { AppUser, AuthUser } from '@/types';
+
+export const mockAuthUsers: (AppUser & { role: AuthUser['role'] })[] = [
+  {
+    id: 'u1',
+    name: 'Arjun Sharma',
+    email: 'arjun@logistics.com',
+    username: 'admin',
+    password: 'admin123',
+    branch: 'Mumbai',
+    isActive: true,
+    createdAt: '2024-01-01T00:00:00.000Z',
+    role: 'Admin',
+  },
+  {
+    id: 'u2',
+    name: 'Priya Patel',
+    email: 'priya@logistics.com',
+    username: 'manager1',
+    password: 'manager123',
+    branch: 'Delhi',
+    isActive: true,
+    createdAt: '2024-01-10T00:00:00.000Z',
+    role: 'Manager',
+  },
+  {
+    id: 'u3',
+    name: 'Ravi Kumar',
+    email: 'ravi@logistics.com',
+    username: 'operator1',
+    password: 'operator123',
+    branch: 'Bangalore',
+    isActive: true,
+    createdAt: '2024-02-01T00:00:00.000Z',
+    role: 'Operator',
+  },
+  {
+    id: 'u4',
+    name: 'Sneha Iyer',
+    email: 'sneha@logistics.com',
+    username: 'viewer1',
+    password: 'viewer123',
+    branch: 'Chennai',
+    isActive: true,
+    createdAt: '2024-02-15T00:00:00.000Z',
+    role: 'Viewer',
+  },
+  {
+    id: 'u5',
+    name: 'Vikram Mehta',
+    email: 'vikram@logistics.com',
+    username: 'manager2',
+    password: 'manager456',
+    branch: 'Hyderabad',
+    isActive: false,
+    createdAt: '2024-03-01T00:00:00.000Z',
+    role: 'Manager',
+  },
+];
+
+export const mockAppUsers: AppUser[] = mockAuthUsers.map(({ role: _role, ...user }) => user);
