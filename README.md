@@ -2,7 +2,7 @@
 
 A full-featured logistics management system built with React + TypeScript, demonstrating scalable UI design, Redux state management, and role-based access control.
 
-🔗 **Live Demo:** https://vendor-management-ahf9.vercel.app/
+🔗 **Live Demo:** https://vendor-management-rw21.vercel.app/
 
 ---
 
