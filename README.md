@@ -2,6 +2,8 @@
 
 A full-featured logistics management system built with React + TypeScript, demonstrating scalable UI design, Redux state management, and role-based access control.
 
+🔗 **Live Demo:** https://vendor-management-ahf9.vercel.app/
+
 ---
 
 ## Tech Stack
@@ -21,6 +23,8 @@ A full-featured logistics management system built with React + TypeScript, demon
 | Data         | Mock/Static JSON (no backend)                        |
 | Code Quality | ESLint + Prettier + Husky + lint-staged + commitlint |
 
+> **Why Redux Toolkit?** Used Redux Toolkit for state management to keep async API calls and auth state predictable across the app. For a production system this scales better than prop-drilling or context.
+
 ---
 
 ## Features (12 Screens)
@@ -39,6 +43,50 @@ A full-featured logistics management system built with React + TypeScript, demon
 | 10  | **Branch-wise Access**   | Per-branch permissions matrix (View/Add/Edit/Delete)             |
 | 11  | **Reports**              | Filterable Inquiry + Vendor Quote reports                        |
 | 12  | **Print Layout**         | Printable format with Print button                               |
+
+---
+
+## Screenshots
+
+### Login
+![Login Desktop](public/snapshots/login-desktop.png)
+![Login Mobile](public/snapshots/login-mobile.png)
+
+### Dashboard
+![Dashboard Desktop](public/snapshots/dashboard-desktop.png)
+![Dashboard Mobile](public/snapshots/dashboard-mobile.png)
+
+### Inquiry List
+![Inquiry List Desktop](public/snapshots/inquiry-listing-desktop.png)
+![Inquiry List Mobile](public/snapshots/inquiry-listing-mobile.png)
+
+### Inquiry Form
+![Inquiry Form](public/snapshots/inquiry-modal-desktop.png)
+
+### Vendor Quote Get
+![Vendor Quote Get](public/snapshots/vendor-quote-desktop.png)
+
+### Actual Vendor Quotes
+![Actual Vendor Quotes](public/snapshots/quotelisting-desktop.png)
+
+### User Management
+![User Management Desktop](public/snapshots/userlisting-desktop.png)
+![User Management Mobile](public/snapshots/userlisting-mobile.png)
+
+### Role Management
+![Role Management](public/snapshots/role-management-desktop.png)
+
+### User-Role Mapping
+![User-Role Mapping](public/snapshots/role-mapping-desktop.png)
+
+### Branch-wise Role Access
+![Branch Access](public/snapshots/branch-access-desktop.png)
+
+### Reports
+![Reports](public/snapshots/reports-desktop.png)
+
+### Print Layout
+![Print Layout](public/snapshots/print-demo.png)
 
 ---
 
